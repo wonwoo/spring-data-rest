@@ -1,0 +1,27 @@
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo1",  "email" : "wonwoo1@email.com", "password" : "pw1" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo2",  "email" : "wonwoo2@email.com", "password" : "pw2" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo3",  "email" : "wonwoo3@email.com", "password" : "pw3" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo4",  "email" : "wonwoo4@email.com", "password" : "pw4" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo5",  "email" : "wonwoo5@email.com", "password" : "pw5" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo6",  "email" : "wonwoo6@email.com", "password" : "pw6" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo7",  "email" : "wonwoo7@email.com", "password" : "pw7" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo8",  "email" : "wonwoo8@email.com", "password" : "pw8" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo9",  "email" : "wonwoo9@email.com", "password" : "pw9" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo10",  "email" : "wonwoo10@email.com", "password" : "pw10" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo11",  "email" : "wonwoo11@email.com", "password" : "pw11" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo12",  "email" : "wonwoo12@email.com", "password" : "pw12" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo13",  "email" : "wonwoo13@email.com", "password" : "pw13" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo14",  "email" : "wonwoo14@email.com", "password" : "pw14" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+curl -i -X POST -H "Content-Type:application/json" -d '{ "name" : "wonwoo15",  "email" : "wonwoo15@email.com", "password" : "pw15" ,"address":{"street":"Bag End","state":"The Shire","country":"Middle Earth"}}' http://localhost:8080/account
+
+curl http://localhost:8080
+curl http://localhost:8080/account
+curl http://localhost:8080/person
+curl http://localhost:8080/account?page=0&size=5
+curl http://localhost:8080/account/search
+http://localhost:8080/account/search/nameStartsWith?name=wonwoo1
+curl http://localhost:8080/account?sort=name,desc
+
+curl http://localhost:8080/account/1?projection=passwords
+
+curl -H 'Accept:application/schema+json' http://localhost:8080/profile/account
